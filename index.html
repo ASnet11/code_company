@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Code Company</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-------------------- NAV BAR --------------------->
+
+        <div class="mainNavContainer">
+            <nav class="mainNav">
+                <img id="logo" src="assets/img/logo.png" alt="Company logo">
+                <img id="burgerMenu" src="assets/img/burger-menu.svg" alt="burger menu">
+                <ul class="navList">
+                    <a href="#">
+                        <li class="navListItem">HOMEPAGE</li>
+                    </a>
+                    <span>&nbsp|&nbsp;</span>
+                    <a href="#theTeamContainer">
+                        <li class="navListItem">OUR TEAM</li>
+                    </a>
+                    <span>&nbsp|&nbsp;</span>
+                    <a href="#thePortfolioContainer">
+                        <li class="navListItem">PORTFOLIO</li>
+                    </a>
+                    <span>&nbsp|&nbsp;</span>
+                    <a href="#theContactContainer">
+                        <li class="navListItem">CONTACT</li>
+                    </a>
+                </ul>
+                
+            </nav>
+        </div>
+
+        <!-------------------- HEADER --------------------->
+
+        <header>
+            <div class="headerBlock">
+                <span class="headerTitle">Do you need a real coder ?</span>
+
+                <span class="headerTitle2">we are the best code company on earth</span>
+                <hr class="ligne">
+                <span class="headerText">We work direct with our hands. Also we do a really best graphic designs and our
+                    hands are so curved. But don’t worry. What we promise, that you get. Not just bla bla, like our
+                    politics ;)</span>
+                <a class="linkPortfolio" href="#thePortfolioContainer">
+                    <span class="btnPortfolio">See our portfolio right now &nbsp &#x25bc</span>
+                </a>
+            </div>
+        </header>
+
+        <!-------------------- THE TEAM --------------------->
+
+        <div class="theTeamContainer" id="theTeamContainer">
+            <section class="theTeam">
+                <div class="teamTitle">
+                    <p class="title teamTitle1">
+                        This three cute baby faces<span class="title and">&nbsp;</span>
+                    </p>
+                    <P class="title teamTitle2">
+                        do for you everything boo boo
+                    </p>
+                </div>
+                <!--------------Card 1 -------------->
+                <div class="teamCard teamCard1">
+                    <img src="assets/img/team-01.png" alt="Picture of Sonjoe">
+                    <h1 class="teamName">Sonjoe</h1>
+                    <p class="teamDescription">UI/UX, Designs, HTML & CSS</p>
+                </div>
+                <!--------------Card 2 -------------->
+                <div class="teamCard teamCard2">
+                    <img src="assets/img/team-02.png" alt="Picture of Kohut">
+                    <h1 class="teamName">Kohut</h1>
+                    <p class="teamDescription">UI/UX, Designs, HTML5 & CSS3, CMS</p>
+                </div>
+                <!--------------Card 3 -------------->
+                <div class="teamCard teamCard3">
+                    <img src="assets/img/team-03.png" alt="Picture of Fuxxo">
+                    <h1 class="teamName">Fuxxo</h1>
+                    <p class="teamDescription">UI/UX, Designs</p>
+                </div>
+            </section>
+            <div class="teamFooter">
+                <hr class="teamLigne">
+                <p class="teamFooterText">Sometimes we look more better. Especially when we changed our faces in
+                    Photoshop.
+                    If you want an autogram. No problem. Just give us a 100 bucks and you can have :)</p>
+            </div>
+        </div>
+
+        <!-------------------- THE PORTFOLIO --------------------->
+
+        <div class="thePortfolioContainer" id="thePortfolioContainer">
+
+            <p class="title thePortfolioTitle">
+                Heeey! Just look on our portfolio.<br class="backRow"> That we are huge
+            </p>
+            <br class="backRow">
+            <p class="title2 thePortfolioText">
+                You know, curved hands are curved hands ;)
+            </p>
+            <div class="iconsContainer">
+                <div class="icons">
+                    <div class="iconImage">
+                        <img class="iconPicture" src="assets/img/pf-01.png" alt="Portfolio picture">
+                        <div class="plus">+</div>
+                    </div>
+                    <div class="iconImage">
+
+                        <img class="iconPicture" src="assets/img/pf-02.png" alt="Portfolio picture">
+                        <div class="plus">+</div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="iconImage">
+                        <img class="iconPicture" src="assets/img/pf-03.png" alt="Portfolio picture">
+                        <div class="plus">+</div>
+                    </div>
+                    <div class="iconImage">
+                        <img class="iconPicture" src="assets/img/pf-04.png" alt="Portfolio picture">
+                        <div class="plus">+</div>
+                    </div>
+                </div>
+            </div>
+            <a class="linkContactUs" href="#theContactContainer">
+                <span class="btnContactUs">Do you want? contact us &nbsp &#x25bc</span>
+            </a>
+
+        </div>
+
+        <!-------------------- THE CONTACT US --------------------->
+
+        <div class="theContactContainer" id="theContactContainer">
+
+            <p class="title theContactTitle">
+                Contact us today and you<br class="backRow"> get a professional code
+            </p>
+            <p class="title2 thePortfolioText">
+                our hand curved guys waiting for you
+            </p>
+            <div class="contactForm">
+                <form action="#">
+                    <input type="text" id="name" placeholder="Placeholder Name">
+                    <input type="email" id="mail" placeholder="Placeholder Email">
+                    <textarea placeholder="Placeholder Message"></textarea>
+                    <div class="submit">
+                        <button class="btnSubmit" type="submit"><span id="btnSubmitText">Send this
+                                message</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-------------------- THE FOOTER --------------------->
+
+        <div class="footerMainContainer">
+            <hr class="footerLine">
+            <footer class="footerContainer">
+
+                <div class="footerPart1">
+                    <span class="footerText1">Follow us on :</span>
+                    <div class="socialIcones">
+                        <img src="./assets/img/ico-fb.png" alt="Facebook icon" class="imgIcons">
+                        <img src="./assets/img/ico-twitter.png" alt="twitter icon" class="imgIcons">
+                        <img src="./assets/img/ico-in.png" alt="Instagram icon" class="imgIcons">
+                        <img src="./assets/img/ico-p.png" alt="Pinterest icon" class="imgIcons">
+                        <img src="./assets/img/ico-y.png" alt="Youtube icon" class="imgIcons">
+                    </div>
+                </div>
+                <div class="footerPart2">Copiright &copy; Designed with curved hands by Tempees.com</div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
